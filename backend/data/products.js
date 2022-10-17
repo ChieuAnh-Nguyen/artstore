@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: "1",
     name: "Universe",
     image: "/images/Universe.jpg",
     description: "A multi-colored artwork",
@@ -12,7 +11,6 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: "2",
     name: "Peace",
     image: "/images/Peace.jpg",
     description: "A multi-colored artwork",
@@ -24,7 +22,6 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: "3",
     name: "Green",
     image: "/images/Green.jpg",
     description: "A multi-colored artwork",
@@ -36,7 +33,6 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: "4",
     name: "Sunset",
     image: "/images/sunset.jpg",
     description: "A multi-colored artwork",
@@ -48,7 +44,6 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: "5",
     name: "Lakeside",
     image: "/images/lakeside.jpg",
     description: "A multi-colored artwork",
@@ -60,7 +55,6 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: "6",
     name: "Twilight",
     image: "/images/Twilight.jpg",
     description: "A multi-colored artwork",
@@ -72,7 +66,6 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: "7",
     name: "Beauty",
     image: "/images/Beauty.jpg",
     description: "A multi-colored artwork",
@@ -84,7 +77,6 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: "8",
     name: "Beach",
     image: "/images/Beach.jpg",
     description: "A multi-colored artwork",
@@ -96,7 +88,6 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: "9",
     name: "Vibe",
     image: "/images/Vibe.jpg",
     description: "A multi-colored artwork",
@@ -108,7 +99,6 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: "10",
     name: "Blues",
     image: "/images/Blues.jpg",
     description: "A multi-colored artwork",
@@ -120,7 +110,6 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: "11",
     name: "Fall",
     image: "/images/Fall.jpg",
     description: "A multi-colored artwork",
@@ -132,7 +121,6 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: "12",
     name: "Pastel",
     image: "/images/Pastel.jpg",
     description: "A multi-colored artwork",
@@ -144,7 +132,6 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: "13",
     name: "Waves",
     image: "/images/Waves.jpg",
     description: "A multi-colored artwork",
