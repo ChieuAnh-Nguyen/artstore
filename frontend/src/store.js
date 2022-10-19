@@ -17,7 +17,9 @@ import {
   productTopRatedReducer,
 } from "./reducers/productReducers.js"
 
-const reducer = combineReducers({})
+const reducer = combineReducers({
+  productList: productListReducer,
+})
 
 const initialState = {}
 
