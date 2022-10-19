@@ -1,26 +1,32 @@
-// import { createStore, combineReducers, applyMiddleware } from "redux"
-// import thunk from "redux-thunk"
-// import { composeWithDevTools } from "redux-devtools-extension"
-// // import {
-// //   productListReducer,
-// //   productDetailsReducer,
-// //   productDeleteReducer,
-// //   productCreateReducer,
-// //   productUpdateReducer,
-// //   productReviewCreateReducer,
-// //   productTopRatedReducer,
-// // } from "./reducers/productReducers"
+import {
+  legacy_createStore as createStore,
+  combineReducers,
+  applyMiddleware,
+} from "redux"
+// import { configureStore } from "@reduxjs/toolkit"
 
-// const reducer = combineReducers({})
+import thunk from "redux-thunk"
+import { composeWithDevTools } from "redux-devtools-extension"
+import {
+  productListReducer,
+  productDetailsReducer,
+  productDeleteReducer,
+  productCreateReducer,
+  productUpdateReducer,
+  productReviewCreateReducer,
+  productTopRatedReducer,
+} from "./reducers/productReducers.js"
 
-// const initialState = {}
+const reducer = combineReducers({})
 
-// const middleware = [thunk]
+const initialState = {}
 
-// const store = createStore(
-//   reducer,
-//   initialState,
-//   composeWithDevTools(applyMiddleware(...middleware))
-// )
+const middleware = [thunk]
 
-// export default store
+const store = createStore(
+  reducer,
+  initialState,
+  composeWithDevTools(applyMiddleware(...middleware))
+)
+
+export default store
